@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:500,400' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Safety Check</title>
+</head>
+
+<body>
+	<input type="checkbox" id="list-checkbox">
+  
+  	<nav role="navigation" class="mobile-menu">
+    	<ul>
+      		<a href="index.php"><li><img src="Images/home.png">Dashboard</li></a>
+      		<a href="list.php"><li><img src="Images/mysite.png">My Site</li></a>
+      		<a href="myhistory.php"><li><img src="Images/history.png">My History</li></a>
+      		<a href="sites.html"><li><img src="Images/list.png">Site List</li></a>
+      		<a href="#"><li><img src="Images/settings.png">Settings</li></a>
+    	</ul>
+ 	</nav>
+
+ 	<label for="list-checkbox" id="list-overlay"></label>
+
+ 	<input type="checkbox" id="worker-checkbox">
+  
+  	<nav role="navigation" class="worker-menu">
+  		<h2>Workers on Site</h2>
+  		<div class="icon-right">
+  			<img src="Images/group.png">
+  		</div>
+    	<ul>
+      		<li>
+      			<img class="dp" src="Images/aaron.png">
+      			Aaron Bennett
+      			<div class="message">
+      				<img src="Images/message.png">
+      			</div>
+      			<div class="phone">
+      				<img src="Images/phone.png">
+      			</div>
+      		</li>
+      		<li>
+      			<img class="dp" src="Images/janet.png">
+      			Janet Perkins
+      			<div class="message">
+      				<img src="Images/message.png">
+      			</div>
+      			<div class="phone">
+      				<img src="Images/phone.png">
+      			</div>
+      		</li>
+      		<li>
+      			<img class="dp" src="Images/mary.png">
+      			Mary Johnson
+      			<div class="message">
+      				<img src="Images/message.png">
+      			</div>
+      			<div class="phone">
+      				<img src="Images/phone.png">
+      			</div>
+      		</li>
+      		<li>
+      			<img class="dp" src="Images/peter.png">
+      			Peter Carlsson
+      			<div class="message">
+      				<img src="Images/message.png">
+      			</div>
+      			<div class="phone">
+      				<img src="Images/phone.png">
+      			</div>
+      		</li>
+      		<li>
+      			<img class="dp" src="Images/trevor.png">
+      			Trevor Hansen
+      			<div class="message">
+      				<img src="Images/message.png">
+      			</div>
+      			<div class="phone">
+      				<img src="Images/phone.png">
+      			</div>
+      		</li>
+    	</ul>
+ 	</nav>
+
+ 	<label for="worker-checkbox" id="worker-overlay"></label>
+
+	<header>
+		<div class="navbar tabtop">
+			<div class="container">
+				<label for="list-checkbox" id="list-menu-btn">
+					<img src="Images/menu.png">
+				</label>
+				<h1>Site #1</h1>
+				<label for="worker-checkbox" id="worker-btn" class="worker-icon icon-right">
+					<img src="Images/workers.png">
+				</label>
+				<div class="filter-icon icon-left">
+					<img src="Images/filter.png">
+				</div>	
+			</div>
+		</div>
+		<div class="tabs">
+      <a href="list.php">
+			<div class="list-tab tab">
+				<h2 class="unselected">LIST</h2>
+			</a>
+			</div>
+			<div class="map-tab tab">
+        <a href="map.html">
+				<h2 class="selected">MAP</h2>
+        <div class="selected-tip"></div>
+        </a>
+			</div>
+			<div class="graph-tab tab">
+        <a href="graphs.html">
+				<h2 class="unselected">GRAPHS</h2>
+      </a>
+			</div>
+		</div>
+	</header>
+  <div class="fullmap">
+<img src="Images/fullmap.png">
+</div>
+</body>
+</html>

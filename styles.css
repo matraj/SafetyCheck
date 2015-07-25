@@ -104,6 +104,7 @@ a, a:hover{
 	height: 48px;
 	background-color: #068894;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	z-index: 1;
 }
 
 .tab{
@@ -272,12 +273,23 @@ a, a:hover{
 }
 
 .safety .status h2{
-	color: #e9662c;
+	
 	opacity: 0.87;
 	margin-top: 5px;
 	margin-bottom: 2px;
 }
 
+.safety .status .safe{
+	color: #00ac65;
+}
+
+.safety .status .caution{
+	color: #e9662c;
+}
+
+.safety .status .danger{
+	color: #c63636;
+}
 .site-list{
 	padding-top: 16px;
 }
@@ -442,4 +454,14 @@ a, a:hover{
 	font-size: 14px;
 	margin-top: 8px;
 	border: none;
+}
+
+.fullmap{
+	position: relative;
+	z-index: -1;
+}
+
+.fullmap img{
+	width: 100%;
+	height: 100%
 }
